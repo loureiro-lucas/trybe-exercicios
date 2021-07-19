@@ -1,0 +1,6 @@
+banana
+laranja
+amarelo
+azul
+marrom
+preto
