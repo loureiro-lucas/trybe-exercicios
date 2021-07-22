@@ -1,0 +1,41 @@
+body {
+  font-size: 16px;
+  font-family: "trebuchet ms", sans-serif;
+  background-color: rgb(253, 246, 236);
+}
+
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-weight: 200;
+  line-height: 0.5em;
+  text-align: center;
+  text-decoration: overline;
+}
+
+p {
+  font-weight: 600;
+  font-size: 2.5em;
+  background-color:rgb(255, 227, 184) ;
+  color: rgb(70, 70, 70);
+  line-height: 2em;
+  font-style: italic;
+}
+
+ul {
+  line-height: 3em;
+}
+
+#li1 {
+  text-decoration: overline;
+  background-color: rgb(255, 253, 149);
+}
+
+#li2 {
+  background-color:rgb(255, 174, 174);
+}
+
+#li3 {
+  text-decoration: underline;
+  background-color: rgb(204, 162, 136);
+}
