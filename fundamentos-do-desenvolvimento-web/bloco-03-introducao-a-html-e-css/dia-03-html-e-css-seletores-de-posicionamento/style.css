@@ -1,42 +1,73 @@
-div:hover {
-  margin: 3px;
-  border: 3px solid black;
-  padding-left: 5px;
+a {
+  text-decoration: none;
 }
 
-div:first-of-type:hover {
+ol {
   background: yellow;
 }
 
-div:nth-of-type(2):hover {
-  background: green;
+li.impar {
+  text-transform: uppercase;
 }
 
-div:nth-of-type(3):hover {
-  background: gray;
+li.par {
+  color: green;
 }
 
-div:nth-of-type(4):hover {
-  background: navy;
+h1, h2, h3, h4, h5, h6 {
+  color: red;
 }
 
-div:last-of-type:hover {
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: 600;
+}
+
+.linguagens > li:first-child {
+  color: blue;
+}
+
+.linguagens > li:nth-child(2) {
+  color: blue;
+}
+
+.linguagens > li:nth-child(3) {
+  color: blue;
+}
+
+.linguagens #java {
   background: pink;
 }
 
-h3 {
-  font-family: monospace;
+.aliados > li:first-child:hover a {
+  color: orange;
+  font-weight: 600;
 }
 
-div:nth-of-type(1) h3 {
-  font-style: italic;
+.aliados > li:nth-child(2):hover a {
+  color:green;
+  font-weight: 600;
 }
 
-div:nth-of-type(3) h3 {
-  font-size: 150%;
-  font-style: italic;
+.aliados > li:nth-child(3):hover a {
+  color:black;
+  font-weight: 600;
 }
 
-div:nth-of-type(5) h3 {
-  font-style: italic;
+.aliados > li:nth-child(4):hover a {
+  color:yellow;
+  font-weight: 600;
+}
+
+.aliados > li:last-child:hover a {
+  color:green;
+  font-weight: 600;
 }
