@@ -1,16 +1,42 @@
-h1, p {
-  text-align: center;
+div:hover {
+  margin: 3px;
+  border: 3px solid black;
+  padding-left: 5px;
 }
 
-li:hover {
-  background-color: aquamarine;
+div:first-of-type:hover {
+  background: yellow;
 }
 
-li:active {
-  font-weight: 600;
-  color:brown;
+div:nth-of-type(2):hover {
+  background: green;
 }
 
-ol, ul {
-  list-style: none;
+div:nth-of-type(3):hover {
+  background: gray;
+}
+
+div:nth-of-type(4):hover {
+  background: navy;
+}
+
+div:last-of-type:hover {
+  background: pink;
+}
+
+h3 {
+  font-family: monospace;
+}
+
+div:nth-of-type(1) h3 {
+  font-style: italic;
+}
+
+div:nth-of-type(3) h3 {
+  font-size: 150%;
+  font-style: italic;
+}
+
+div:nth-of-type(5) h3 {
+  font-style: italic;
 }
