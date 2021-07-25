@@ -1,0 +1,73 @@
+a {
+  text-decoration: none;
+}
+
+ol {
+  background: yellow;
+}
+
+li.impar {
+  text-transform: uppercase;
+}
+
+li.par {
+  color: green;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: red;
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: 600;
+}
+
+.linguagens > li:first-child {
+  color: blue;
+}
+
+.linguagens > li:nth-child(2) {
+  color: blue;
+}
+
+.linguagens > li:nth-child(3) {
+  color: blue;
+}
+
+.linguagens #java {
+  background: pink;
+}
+
+.aliados > li:first-child:hover a {
+  color: orange;
+  font-weight: 600;
+}
+
+.aliados > li:nth-child(2):hover a {
+  color:green;
+  font-weight: 600;
+}
+
+.aliados > li:nth-child(3):hover a {
+  color:black;
+  font-weight: 600;
+}
+
+.aliados > li:nth-child(4):hover a {
+  color:yellow;
+  font-weight: 600;
+}
+
+.aliados > li:last-child:hover a {
+  color:green;
+  font-weight: 600;
+}
