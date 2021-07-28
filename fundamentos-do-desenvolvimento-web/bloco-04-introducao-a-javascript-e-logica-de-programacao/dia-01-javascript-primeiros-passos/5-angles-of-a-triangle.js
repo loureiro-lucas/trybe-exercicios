@@ -4,7 +4,7 @@ let angle3 = 80;
 let triangle;
 
 if (angle1 < 0 || angle2 < 0 || angle3 < 0) {
-  triangle = 'erro';
+  triangle = 'error';
 } else if (angle1 + angle2 + angle3 == 180) {
   triangle = true;
 } else {

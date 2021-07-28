@@ -1,9 +1,9 @@
 let number = 0;
 
 if (number > 0) {
-  console.log ('positivo');
+  console.log ('positive');
 } else if (number < 0) {
-  console.log ('negativo');
+  console.log ('negative');
 } else {
   console.log ('zero')
 };
