@@ -19,4 +19,7 @@ switch (piece.toLowerCase()) {
   case "king" :
     console.log ('moves and attacks 1 square horizontally, vertically or diagonally');
     break;
+  default:
+    console.log ('not a chess piece!');
+    break;
 };
