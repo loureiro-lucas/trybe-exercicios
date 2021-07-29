@@ -1,6 +1,6 @@
 let grossSalary = 3000;
-let inss
-let ir
+let inss=null;
+let ir=null;
 
 if (grossSalary <= 1556.94) {
   inss = 0.08 * grossSalary;
@@ -26,6 +26,6 @@ if (inssDeductedSalary <= 1903.98) {
   ir = (0.275 * inssDeductedSalary) - 869.36;
 };
 
-netSalary = inssDeductedSalary - ir;
+let netSalary = inssDeductedSalary - ir;
 
 console.log(netSalary);

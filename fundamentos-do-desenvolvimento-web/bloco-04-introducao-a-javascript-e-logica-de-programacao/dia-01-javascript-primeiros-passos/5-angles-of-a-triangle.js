@@ -1,7 +1,7 @@
 let angle1 = 40;
 let angle2 = 60;
 let angle3 = 80;
-let triangle;
+let triangle = null;
 
 if (angle1 < 0 || angle2 < 0 || angle3 < 0) {
   triangle = 'error';
