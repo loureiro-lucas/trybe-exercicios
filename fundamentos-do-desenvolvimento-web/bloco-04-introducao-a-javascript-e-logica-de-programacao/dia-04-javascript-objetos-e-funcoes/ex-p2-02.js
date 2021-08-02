@@ -1,7 +1,3 @@
-function compareNumbers(a, b) {
-  return a - b;
-}
-
 function biggestIndex(array) {
   let biggest = "";
   let index = "";
