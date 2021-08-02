@@ -1,32 +1,22 @@
-let n = 6;
-// let x = n/2;
-
-// for (let index = 1; index <= n; index += 2) {
-//   let line = '';
-//   for (let index_2 = 1; index_2 <= x; index_2 += 1) {
-//     line += ' ';
-//   }
-//   for (let index_3 = 1; index_3 <= index; index_3 += 1) {
-//     line += '*';
-//   }
-//   for (let index_2 = 1; index_2 < x; index_2 += 1) {
-//     line += ' ';
-//   }
-//   x -= 1; 
-//   console.log(line);
-// }
+let n = 5;
+let summit = 0;
+if (n%2===0) {
+  summit = 2;
+} else {
+  summit = 1;
+}
 
 
-for (let index = 1; index <= (n); index += 2) {
+for (let index = summit; index <= (n); index += 2) {
   let line = '';
-  let asterisk = '';
-  let space = '';
+  let asterisks = '';
+  let spaces = '';
   for (let index_2 = 1; index_2 <= index; index_2 += 1) {
-    asterisk += '*';
+    asterisks += '*';
   }
   for (let index_3 = 1; index_3 <= ((n-index)/2); index_3 += 1) {
-    space += ' ';
+    spaces += ' ';
   }
-  line = space + asterisk + space; 
+  line = spaces + asterisks + spaces; 
   console.log(line);
 }
