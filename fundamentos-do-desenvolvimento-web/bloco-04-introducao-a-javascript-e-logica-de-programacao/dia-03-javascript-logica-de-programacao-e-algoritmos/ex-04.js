@@ -6,7 +6,6 @@ if (n%2===0) {
   summit = 1;
 }
 
-
 for (let index = summit; index <= (n); index += 2) {
   let line = '';
   let asterisks = '';
