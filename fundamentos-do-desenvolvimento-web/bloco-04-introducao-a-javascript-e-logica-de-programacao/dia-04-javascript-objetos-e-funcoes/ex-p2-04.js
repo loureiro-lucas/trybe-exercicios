@@ -1,10 +1,8 @@
 function biggestName(array) {
   let biggest = "";
-  // let index = "";
   for (listedName of array) {
     if (listedName.length>biggest.length) {
       biggest = listedName;
-      // index = array.indexOf(listedName);
     }
   }
   return biggest;
