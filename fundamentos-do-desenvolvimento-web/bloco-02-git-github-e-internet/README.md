@@ -1,0 +1,4 @@
+## Block 2: Git, GitHub and Internet :white_check_mark:
+- [x] 2-1: [_Git & GitHub - What is it and what is it for?_](https://github.com/loureiro-lucas/trybe-exercicios/tree/main/fundamentos-do-desenvolvimento-web/bloco-02-git-github-e-internet/dia-01-git-e-github)
+- [x] 2-2: [_Git & GitHub - Commands_](https://github.com/loureiro-lucas/trybe-exercicios/tree/main/fundamentos-do-desenvolvimento-web/bloco-02-git-github-e-internet/dia-02-git-e-github)
+- [x] 2-3: [_Internet - How does it work?_](https://github.com/loureiro-lucas/trybe-exercicios/tree/main/fundamentos-do-desenvolvimento-web/bloco-02-git-github-e-internet/dia-03-internet)
