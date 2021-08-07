@@ -21,7 +21,7 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 3-3: _HTML & CSS - Selectors and positioning_
 - [x] 3-4: _HTML Semantic_
 - [x] 3-5: _[Project - HTML & CSS]()_ :medal_military:
-##### Block 4: Introdução - JavaScript and Programming Logic :white_check_mark:
+##### Block 4: Introduction - JavaScript and Programming Logic :white_check_mark:
 - [x] 4-1: _JavaScript - First steps_
 - [x] 4-2: _JavaScript - Array and For loop_
 - [x] 4-3: _JavaScript - Programming logic and algorithms_
