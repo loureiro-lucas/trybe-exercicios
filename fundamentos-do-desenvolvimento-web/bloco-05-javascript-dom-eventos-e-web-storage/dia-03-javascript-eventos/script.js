@@ -13,4 +13,27 @@ function createDaysOfTheWeek() {
 
 createDaysOfTheWeek();
 
-// Escreva seu código abaixo.
+// exercício 1
+
+const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+
+function liMaker (liTexts) {
+  let daysList = document.getElementById('days');
+  for (liText of liTexts) {
+    let newLi = document.createElement('li');
+    daysList.appendChild(newLi);
+    daysList.lastElementChild.innerHTML = liText;
+    daysList.lastElementChild.className = 'day';
+    if (liText === 24 || liText === 25 || liText === 31) {
+      daysList.lastElementChild.className += ' holiday';
+    }
+    if (liText === 4 || liText === 11 || liText === 18 || liText === 25) {
+      daysList.lastElementChild.className += ' friday';
+    }
+  }
+}
+
+liMaker(dezDaysList);
+
+// exercício 2
+
