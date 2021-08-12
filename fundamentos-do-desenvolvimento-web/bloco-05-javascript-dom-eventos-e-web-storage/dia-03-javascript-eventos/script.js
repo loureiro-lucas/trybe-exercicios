@@ -106,7 +106,6 @@ for (decFriday of decFridaysList) {
 fridaysButtonFunction(decFridaysListArray);
 
 //exercício 6
-
 function zoomIn() {
   let daysList = document.getElementById('days');
   daysList.addEventListener('mouseover', function(event) {
@@ -122,3 +121,6 @@ function zoomOut() {
 }
 zoomIn();
 zoomOut();
+
+//exercício 7
+
