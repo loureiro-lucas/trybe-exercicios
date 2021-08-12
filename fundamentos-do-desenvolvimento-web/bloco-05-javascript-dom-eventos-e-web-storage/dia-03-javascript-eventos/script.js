@@ -83,3 +83,24 @@ fridayButtonMaker('Sexta-feira');
 
 //exercício 5
 
+function fridaysButtonFunction(fridaysList) {
+  let fridaysButton = document.getElementById('btn-friday');
+  fridaysButton.addEventListener('click', function() {
+    let fridays = document.getElementsByClassName('friday');
+    let newText = 'SEXTOUU!';
+    for (let index = 0; index < fridays.length; index += 1) {
+      if (fridays[index].innerText === newText) {
+        fridays[index].innerText = fridaysList[index];
+      } else {
+        fridays[index].innerText = newText;
+      }
+    }
+  });
+}
+
+let decFridaysList = document.getElementsByClassName('friday');
+let decFridaysListArray = [];
+for (decFriday of decFridaysList) {
+  decFridaysListArray.push(decFriday.innerText)
+}
+fridaysButtonFunction(decFridaysListArray);
