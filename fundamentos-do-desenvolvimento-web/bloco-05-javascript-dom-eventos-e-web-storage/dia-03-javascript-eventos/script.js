@@ -37,7 +37,7 @@ liMaker(dezDaysList);
 
 // exercício 2
 
-function buttonMaker(buttonName) {
+function holidayButtonMaker(buttonName) {
   let newButton = document.createElement('button');
   newButton.id = 'btn-holiday';
   newButton.innerText = buttonName;
@@ -45,7 +45,7 @@ function buttonMaker(buttonName) {
   buttonsContainer.appendChild(newButton);
 }
 
-buttonMaker('Feriados');
+holidayButtonMaker('Feriados');
 
 //exercicio 3
 
@@ -68,3 +68,18 @@ function holidaysButtonFunction() {
 }
 
 holidaysButtonFunction()
+
+//exercício 4
+
+function fridayButtonMaker(buttonName) {
+  let newButton = document.createElement('button');
+  newButton.id = 'btn-friday';
+  newButton.innerText = buttonName;
+  let buttonsContainer = document.getElementsByClassName('buttons-container')[0];
+  buttonsContainer.appendChild(newButton);
+}
+
+fridayButtonMaker('Sexta-feira');
+
+//exercício 5
+
