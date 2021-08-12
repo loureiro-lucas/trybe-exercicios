@@ -37,3 +37,34 @@ liMaker(dezDaysList);
 
 // exercício 2
 
+function buttonMaker(buttonName) {
+  let newButton = document.createElement('button');
+  newButton.id = 'btn-holiday';
+  newButton.innerText = buttonName;
+  let buttonsContainer = document.getElementsByClassName('buttons-container')[0];
+  buttonsContainer.appendChild(newButton);
+}
+
+buttonMaker('Feriados');
+
+//exercicio 3
+
+function holidaysBgColorChanger() {
+  let holidays = document.getElementsByClassName('holiday');
+  let vanillaColor = 'rgb(238,238,238)';
+  let newColor = 'rgb(184, 224, 186)';
+  for (index = 0; index < holidays.length; index += 1) {
+    if (holidays[index].style.backgroundColor === newColor) {
+      holidays[index].style.backgroundColor = vanillaColor;
+    } else {
+      holidays[index].style.backgroundColor = newColor;
+    }
+  }
+}
+
+function holidaysButtonFunction() {
+  let holidaysButton = document.getElementById('btn-holiday');
+  holidaysButton.addEventListener('click', holidaysBgColorChanger);
+}
+
+holidaysButtonFunction()
