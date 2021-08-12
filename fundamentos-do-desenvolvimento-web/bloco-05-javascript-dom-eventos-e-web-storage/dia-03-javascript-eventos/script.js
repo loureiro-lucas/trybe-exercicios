@@ -104,3 +104,21 @@ for (decFriday of decFridaysList) {
   decFridaysListArray.push(decFriday.innerText)
 }
 fridaysButtonFunction(decFridaysListArray);
+
+//exercício 6
+
+function zoomIn() {
+  let daysList = document.getElementById('days');
+  daysList.addEventListener('mouseover', function(event) {
+    event.target.style.fontSize = '30px';
+  })
+}
+
+function zoomOut() {
+  let daysList = document.getElementById('days');
+  daysList.addEventListener('mouseout', function(event) {
+    event.target.style.fontSize = '20px';
+  })
+}
+zoomIn();
+zoomOut();
