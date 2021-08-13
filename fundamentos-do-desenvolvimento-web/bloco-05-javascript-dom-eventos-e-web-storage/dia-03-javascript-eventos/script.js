@@ -124,3 +124,14 @@ zoomOut();
 
 //exercício 7
 
+function newTasks(task) {
+  let tasksContainer = document.getElementsByClassName('my-tasks')[0];
+  let newTask = document.createElement('span');
+  newTask.innerText = task;
+  tasksContainer.appendChild(newTask);
+}
+
+newTasks('Estudar');
+
+//exercício 8
+
