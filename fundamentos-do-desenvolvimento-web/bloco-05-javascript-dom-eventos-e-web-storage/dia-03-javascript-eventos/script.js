@@ -159,3 +159,22 @@ function selectTag() {
 }
 
 selectTag();
+
+//exercício 10
+
+function taskToDay() {
+  let days = document.getElementById('days');
+  let tagSelected = document.getElementsByClassName('selected');
+  days.addEventListener('click', function(event) {
+    if (tagSelected.length !== 0) {
+      let color = tagSelected[0].style.backgroundColor;
+      if (event.target.style.color !== color) {
+        event.target.style.color = color;
+      } else {
+        event.target.style.color = 'rgb(119,119,119)';
+      }
+    }
+  })
+}
+
+taskToDay();
