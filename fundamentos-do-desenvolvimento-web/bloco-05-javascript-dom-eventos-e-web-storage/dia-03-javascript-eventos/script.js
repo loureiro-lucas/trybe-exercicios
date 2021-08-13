@@ -147,3 +147,15 @@ taskTag('yellow');
 
 //exercício 9
 
+function selectTag() {
+  let tagSelected = document.getElementsByClassName('task')[0];
+  tagSelected.addEventListener('click', function(event) {
+    if (event.target.className !== 'task selected') {
+      event.target.className = 'task selected';
+    } else {
+      event.target.className = 'task';
+    }
+  })
+}
+
+selectTag();
