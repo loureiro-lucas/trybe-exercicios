@@ -127,11 +127,23 @@ zoomOut();
 function newTasks(task) {
   let tasksContainer = document.getElementsByClassName('my-tasks')[0];
   let newTask = document.createElement('span');
-  newTask.innerText = task;
   tasksContainer.appendChild(newTask);
+  newTask.innerText = task;
 }
 
 newTasks('Estudar');
 
 //exercício 8
+
+function taskTag(color) {
+  let tasksContainer = document.getElementsByClassName('my-tasks')[0];
+  let newTag = document.createElement('div');
+  tasksContainer.append(newTag);
+  newTag.className = 'task';
+  newTag.style.backgroundColor = color;
+}
+
+taskTag('yellow');
+
+//exercício 9
 
