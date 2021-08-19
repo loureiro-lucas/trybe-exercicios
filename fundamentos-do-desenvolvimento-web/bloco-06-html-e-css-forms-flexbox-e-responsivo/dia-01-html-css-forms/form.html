@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="GET">
+    <fieldset id='info'>
+      <label for="user-fullname">Nome completo:</label>
+      <input type="text" name="fullname" id='user-fullname' maxlength='40' required>
+  
+      <label for="user-email">E-mail:</label>
+      <input type="email" name="email" id='user-email' maxlength='50' required>
+  
+      <label for="user-cpf">CPF:</label>
+      <input type="text" name="cpf" id='user-cpf' maxlength='11' required placeholder="somente números">
+  
+      <br>
+  
+      <label for="user-adress">Endereço:</label>
+      <input type="text" name="adress" id='user-adress' maxlength='200' required>
+  
+      <label for="user-state">Estado:</label>
+      <select name="state" id="user-state" required>
+        <option value="" disabled></option>
+      </select>
+  
+      <label for="">Tipo de residência:
+        <input type="radio" name="house-type" id="type-house" class='type-house' value="house" required>
+        <label for="user-house-type">Casa</label>
+
+        <input type="radio" name="house-type" id="type-apartment" class='type-house' value="apartment" required>
+        <label for="user-house-type">Apartamento</label>
+  
+      </label>
+  
+    </fieldset>
+  
+    <fildset id="last-job">
+      <label for="user-abstract">Resumo</label><br>
+      <textarea name="abstract" id="user-abstract" maxlength="1000" required></textarea>
+
+      <br>
+        
+      <label for="user-position">Cargo:</label>
+      <input type="text" name='position' id="user-position" required maxlength="40">
+      
+      <br>
+        
+      <label for="user-position-description">Descrição:</label>
+      <input type="text" name='position-description' id="user-position-description" required maxlength="500">
+
+      <br>
+
+      <label for="position-starting-date">Data de início:</label>
+      <input type="date" name='starting-date' id="position-starting-date" required>
+
+    </fildset>
+
+    <button id='submit-button'>Enviar</button>
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+</html>
