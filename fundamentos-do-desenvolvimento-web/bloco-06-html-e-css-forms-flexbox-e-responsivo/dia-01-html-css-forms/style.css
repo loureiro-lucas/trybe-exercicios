@@ -1,0 +1,28 @@
+#user-fullname {
+  width: 300px;
+}
+
+#user-email {
+  width: 200px;
+}
+
+#user-cpf {
+  width: 100px;
+}
+
+#user-adress {
+  width: 500px;
+}
+
+#user-abstract {
+  height: 200px;
+  width: 550px;
+}
+
+#user-position {
+  width: 500px;
+}
+
+#user-position-description {
+  width: 475px;
+}
