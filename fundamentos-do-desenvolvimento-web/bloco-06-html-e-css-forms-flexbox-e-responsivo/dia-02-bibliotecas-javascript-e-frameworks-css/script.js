@@ -26,170 +26,178 @@ function createStatesOptions() {
 
 createStatesOptions();
 
-function checkName() {
-  let fullnameValue = fullname.value;
-  if (fullnameValue.length > 0 && fullnameValue.length <= 40) {
-    return true;
-  } else {
-    return false;
-  }
-}
+//------------------------------
 
-function checkEmail() {
-  let emailValue = email.value;
-  if (emailValue.length > 0 && emailValue.length <= 50) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
-function checkCpf() {
-  let cpfValue = cpf.value;
-  if (cpfValue.length === 11) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
-function checkAdress() {
-  adressValue = adress.value;
-  if (adressValue.length > 0 && adressValue.length <= 200) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
-function checkState() {
-  let stateValue = state.value;
-  if (stateValue !== '') {
-    return true;
-  } else {
-    return false;
-  }
-}
 
-function checkHouseType() {
-  if (types[0].checked === true || types[1].checked === true) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
-let houseType = '';
 
-function whatType() {
-  if (types[0].checked === true) {
-    houseType = types[0].value;
-  } else if (types[1].checked === true) {
-    houseType = types[1].value;
-  }
-}
 
-function checkAbstract() {
-  let abstractValue = abstract.value;
-  if (abstractValue.length > 0 && abstractValue.length <= 1000) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
-function checkPosition() {
-  let positionValue = position.value;
-  if (positionValue.length > 0 && positionValue.length <= 40) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function checkName() {
+//   let fullnameValue = fullname.value;
+//   if (fullnameValue.length > 0 && fullnameValue.length <= 40) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function checkPositionDescription() {
-  let positionDescriptionValue = positionDescription.value;
-  if (positionDescriptionValue.length > 0 && positionDescriptionValue.length <= 500) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function checkEmail() {
+//   let emailValue = email.value;
+//   if (emailValue.length > 0 && emailValue.length <= 50) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function checkStartingDay() {
-  let startingDateValue = startingDate.value;
-  let day = [];
-  for(let index = 8; index < 10; index += 1) {
-    day.push(startingDateValue[index]);
-  }
-  day = day.join('');
-  day = parseInt(day);
+// function checkCpf() {
+//   let cpfValue = cpf.value;
+//   if (cpfValue.length === 11) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-  if (day > 0 && day <= 31) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function checkAdress() {
+//   adressValue = adress.value;
+//   if (adressValue.length > 0 && adressValue.length <= 200) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function checkStartingMonth() {
-  let startingDateValue = startingDate.value;
+// function checkState() {
+//   let stateValue = state.value;
+//   if (stateValue !== '') {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function checkHouseType() {
+//   if (types[0].checked === true || types[1].checked === true) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// let houseType = '';
+
+// function whatType() {
+//   if (types[0].checked === true) {
+//     houseType = types[0].value;
+//   } else if (types[1].checked === true) {
+//     houseType = types[1].value;
+//   }
+// }
+
+// function checkAbstract() {
+//   let abstractValue = abstract.value;
+//   if (abstractValue.length > 0 && abstractValue.length <= 1000) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function checkPosition() {
+//   let positionValue = position.value;
+//   if (positionValue.length > 0 && positionValue.length <= 40) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function checkPositionDescription() {
+//   let positionDescriptionValue = positionDescription.value;
+//   if (positionDescriptionValue.length > 0 && positionDescriptionValue.length <= 500) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function checkStartingDay() {
+//   let startingDateValue = startingDate.value;
+//   let day = [];
+//   for(let index = 8; index < 10; index += 1) {
+//     day.push(startingDateValue[index]);
+//   }
+//   day = day.join('');
+//   day = parseInt(day);
+
+//   if (day > 0 && day <= 31) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function checkStartingMonth() {
+//   let startingDateValue = startingDate.value;
   
-  let month = [];
-  for(let index = 5; index < 7; index += 1) {
-    month.push(startingDateValue[index]);
-  }
-  month = month.join('');
-  month = parseInt(month);
+//   let month = [];
+//   for(let index = 5; index < 7; index += 1) {
+//     month.push(startingDateValue[index]);
+//   }
+//   month = month.join('');
+//   month = parseInt(month);
 
-  if (month > 0 && month <= 12) {
-    return true;
-  } else {
-    return false;
-  }
-}
+//   if (month > 0 && month <= 12) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function checkStartingYear() {
-  let startingDateValue = startingDate.value;
+// function checkStartingYear() {
+//   let startingDateValue = startingDate.value;
 
-  let year = [];
-  for(let index = 0; index < 4; index += 1) {
-    year.push(startingDateValue[index]);
-  }
-  year = year.join('');
-  year = parseInt(year);
+//   let year = [];
+//   for(let index = 0; index < 4; index += 1) {
+//     year.push(startingDateValue[index]);
+//   }
+//   year = year.join('');
+//   year = parseInt(year);
 
-  if (year > 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
+//   if (year > 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function validation(event) {
-  event.preventDefault();
-  whatType();
-  let div = document.createElement('div');
-  let body = document.getElementsByTagName('body')[0];
-  if (checkName() && checkEmail() && checkCpf() && checkAdress() && checkState() && checkHouseType() && checkAbstract() && checkPosition() && checkPositionDescription() && checkStartingDay() && checkStartingMonth() && checkStartingYear()) {
-    div.innerHTML = fullname.name+': '+fullname.value+'<br>'+email.name+': '+email.value+'<br>'+cpf.name+': '+cpf.value+'<br>'+adress.name+': '+adress.value+'<br>'+state.name+': '+state.value+'<br>'+types[0].name+': '+houseType+'<br>'+abstract.name+': '+abstract.value+'<br>'+position.name+': '+position.value+'<br>'+positionDescription.name+': '+positionDescription.value+'<br>'+startingDate.name+': '+startingDate.value;
-    body.appendChild(div);
-  } else {
-    if (checkStartingDay() !== true || checkStartingMonth() !== true || checkStartingYear() !== true) {
-      div.innerHTML = 'Data inválida';
-    body.appendChild(div);
-    } else {
-      div.innerText = 'Dados inválidos';
-    body.appendChild(div);
-    }
-  }
-}
+// function validation(event) {
+//   event.preventDefault();
+//   whatType();
+//   let div = document.createElement('div');
+//   let body = document.getElementsByTagName('body')[0];
+//   if (checkName() && checkEmail() && checkCpf() && checkAdress() && checkState() && checkHouseType() && checkAbstract() && checkPosition() && checkPositionDescription() && checkStartingDay() && checkStartingMonth() && checkStartingYear()) {
+//     div.innerHTML = fullname.name+': '+fullname.value+'<br>'+email.name+': '+email.value+'<br>'+cpf.name+': '+cpf.value+'<br>'+adress.name+': '+adress.value+'<br>'+state.name+': '+state.value+'<br>'+types[0].name+': '+houseType+'<br>'+abstract.name+': '+abstract.value+'<br>'+position.name+': '+position.value+'<br>'+positionDescription.name+': '+positionDescription.value+'<br>'+startingDate.name+': '+startingDate.value;
+//     body.appendChild(div);
+//   } else {
+//     if (checkStartingDay() !== true || checkStartingMonth() !== true || checkStartingYear() !== true) {
+//       div.innerHTML = 'Data inválida';
+//     body.appendChild(div);
+//     } else {
+//       div.innerText = 'Dados inválidos';
+//     body.appendChild(div);
+//     }
+//   }
+// }
 
-function submitButton() {
-  let button = document.getElementById('submit-button');
-  button.addEventListener('click', validation);
-}
+// function submitButton() {
+//   let button = document.getElementById('submit-button');
+//   button.addEventListener('click', validation);
+// }
 
-submitButton();
-
-date=2021-08-28
+// submitButton();
