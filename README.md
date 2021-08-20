@@ -27,19 +27,19 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 4-3: _JavaScript - Programming logic and algorithms_
 - [x] 4-4: _JavaScript - Objects and functions_
 - [x] 4-5: _[Project - Playground Functions]()_ :medal_military:
-##### Block 5: JavaScript - DOM, Events and Web Storage
-- [ ] 5-1: _JavaScript - DOM and selectors_
-- [ ] 5-2: _JavaScript - Working with elements_
-- [ ] 5-3: _JavaScript - Events_
-- [ ] 5-4: _JavaScript - Web Storage_
+##### Block 5: JavaScript - DOM, Events and Web Storage :white_check_mark:
+- [x] 5-1: _JavaScript - DOM and selectors_
+- [x] 5-2: _JavaScript - Working with elements_
+- [x] 5-3: _JavaScript - Events_
+- [x] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Project - Meme Generator_
-- [ ] 5-6: _Project - Pixel Art_
-- [ ] 5-7: _Project - Task List_
+- [x] 5-6: _Project - Pixel Art_ :medal_military:
+- [x] 5-7: _Project - Task List_ :medal_military:
 - [ ] 5-7: _Project - Guess the Color_
 - [ ] 5-7: _Project - Mysterious Letter_
 ##### Block 6: HTML & CSS - Forms, Flexbox and Responsiveness
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _JavaScript libraries and CSS frameworks_
+- [x] 6-1: _HTML & CSS - Forms_
+- [x] 6-2: _JavaScript libraries and CSS frameworks_
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsive - Mobile First_
