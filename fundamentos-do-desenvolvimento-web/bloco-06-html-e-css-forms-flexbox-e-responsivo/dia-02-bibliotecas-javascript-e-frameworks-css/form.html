@@ -8,61 +8,65 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+  <link href="node_modules/popup-validation/bin/validation.min.css" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
 
   <link rel="stylesheet" href="style.css">
+
+  <script src="node_modules/popup-validation/bin/validation.min.js"></script>
 
 </head>
 
 <body class='container'>
   <h1>Currículo</h1>
-  <form action="GET">
+  <form action="GET" id='myForm'>
     <div class="form-label">
       <label for="user-fullname">Nome completo:</label>
-      <input type="text" name="fullname" id='user-fullname' maxlength='40' required>
     </div>
+    <input type="text" name="fullname" class="validate" data-validate="required" id='user-fullname' maxlength='40'>
     <div class="form-label">
       <label for="user-email">E-mail:</label>
-      <input type="email" name="email" id='user-email' maxlength='50' required>
+      <input type="email" class="validate" data-validate="required,email" name="email" id='user-email' maxlength='50'>
     </div>
     <div class="form-label">
       <label for="user-cpf">CPF:</label>
-      <input type="text" name="cpf" id='user-cpf' maxlength='11' required placeholder="somente números">
+      <input type="text" class="validate" data-validate="required" name="cpf" id='user-cpf' maxlength='11' required placeholder="somente números">
     </div>
     <div class="form-label">
       <label for="user-adress">Endereço:</label>
-      <input type="text" name="adress" id='user-adress' maxlength='200' required>
+      <input type="text" class="validate" data-validate="required" name="adress" id='user-adress' maxlength='200' required>
     </div>
     <div class="form-label">
       <label for="user-state">Estado:</label>
-      <select name="state" id="user-state" required>
+      <select name="state" class="validate" data-validate="required" id="user-state" required>
         <option value="" disabled></option>
       </select>
     </div>
     <div class="form-label">
       <label for="">Tipo de residência:
-        <input type="radio" name="house-type" id="type-house" class='type-house' value="house" required>
+        <input type="radio" class="validate" data-validate="required" name="house-type" id="type-house" class='type-house' value="house" required>
         <label for="user-house-type">Casa</label>
     
-        <input type="radio" name="house-type" id="type-apartment" class='type-house' value="apartment" required>
+        <input type="radio" class="validate" data-validate="required" name="house-type" id="type-apartment" class='type-house' value="apartment" required>
         <label for="user-house-type">Apartamento</label>
       </label>
     </div>
     <div id="last-job" class="form-label">
       <label for="user-abstract">Resumo</label><br>
-      <textarea name="abstract" id="user-abstract" maxlength="1000" required></textarea>
+      <textarea name="abstract" class="validate" data-validate="required" id="user-abstract" maxlength="1000" required></textarea>
     </div>
     <div class="form-label">
       <label for="user-position">Cargo:</label>
-      <input type="text" name='position' id="user-position" required maxlength="40">
+      <input type="text" class="validate" data-validate="required" name='position' id="user-position" required maxlength="40">
     </div class="form-label">
     <div>
       <label for="user-position-description">Descrição:</label>
-      <input type="text" name='position-description' id="user-position-description" required maxlength="500">
+      <input type="text" class="validate" data-validate="required" name='position-description' id="user-position-description" required maxlength="500">
     </div>
     <div class="form-label">
       <label for="datepicker">Data de início:</label>
-      <input type="text" name='starting-date' id="datepicker" required>
+      <input type="text" class="validate" data-validate="required" name='starting-date' id="datepicker" required>
     </div>
     <div class="form-label">
       <button id='submit-button'>Enviar</button>
@@ -73,9 +77,16 @@
   
   <script src="script.js"></script>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+
+  <script>
+    validation.init('myForm');
+    validation.highlight
+  </script>
 
   <script>
       let picker = new Pikaday({ field: document.getElementById('datepicker') });

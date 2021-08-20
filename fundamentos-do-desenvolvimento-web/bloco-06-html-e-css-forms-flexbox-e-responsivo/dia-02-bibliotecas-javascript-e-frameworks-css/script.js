@@ -35,7 +35,6 @@ createStatesOptions();
 
 
 
-
 // function checkName() {
 //   let fullnameValue = fullname.value;
 //   if (fullnameValue.length > 0 && fullnameValue.length <= 40) {
@@ -195,9 +194,12 @@ createStatesOptions();
 //   }
 // }
 
-// function submitButton() {
-//   let button = document.getElementById('submit-button');
-//   button.addEventListener('click', validation);
-// }
+function submitButton() {
+  let button = document.getElementById('submit-button');
+  button.addEventListener('click', function(event) {
+    event.preventDefault();
+    validation.highlight();
+  });
+}
 
-// submitButton();
+submitButton();
