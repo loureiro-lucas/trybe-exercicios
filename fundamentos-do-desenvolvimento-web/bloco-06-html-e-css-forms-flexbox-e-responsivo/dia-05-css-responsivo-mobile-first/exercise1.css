@@ -1,12 +1,12 @@
 body {
-  font-size: 20px;
-  margin: 20px;
+  font-size: 22px;
+  margin: 15px;
 }
 h1 {
   font-size: 28px;
 }
 h2 {
-
+  font-size: 24px;
 }
 
 img {
@@ -14,11 +14,33 @@ img {
 }
 
 figure {
-    margin: 10px;
+    margin: 20px 0;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 750px) {
   body {
     background-color: lightgreen;
+    font-size: 20px;
+    margin: 20px;
   }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  figure {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 10px;
+  }
+
+  h2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (mmin width: 1300px) {
+
 }
