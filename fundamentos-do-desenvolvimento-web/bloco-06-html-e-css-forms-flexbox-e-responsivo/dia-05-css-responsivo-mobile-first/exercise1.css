@@ -27,12 +27,12 @@ figure {
   main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   figure {
-    flex-basis: 300px;
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
     padding: 10px;
   }
 
@@ -41,6 +41,20 @@ figure {
   }
 }
 
-@media only screen and (mmin width: 1300px) {
+@media only screen and (min-width: 1300px) {
+  body {
+    background-color: lightskyblue;
+    font-size: 18px;
+    margin: 25px;
+    max-width: 1366px;
+  }
 
+  figure {
+    flex-basis: 400px;
+    flex-grow: 1;
+  }
+
+  img {
+    object-fit: cover;
+  }
 }
