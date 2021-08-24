@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 18px;
+  line-height: 26px;
+  background-color: rgb(238, 192, 192);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 10px;
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+}
+
+.header-container {
+  font-size: 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header p {
+  margin: 10px;
+}
+
+nav {
+  font-size: 22px;
+  width: 70%;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+aside {
+  margin: 10px;
+  background-color: rgb(236, 236, 236);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+article {
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(236, 236, 236);
+  padding: 10px 10px 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .aside-container {
+    display: flex;
+    margin: 10px;
+  }
+
+  .aside-container aside {
+    flex-basis: 250px;
+    flex-grow: 1;
+  }
+
+  article {
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px 20px 20px;
+  }
+
+}
+
+@media only screen and (min-width: 1300px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-container p {
+    width: 400px;
+  }
+
+  .header-container nav {
+    width: 400px;
+  }
+}
