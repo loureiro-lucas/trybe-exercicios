@@ -31,12 +31,27 @@
 // console.log(`Os números ${sorter(oddsAndEvens)} se encontram ordenados de forma crescente!`);
 
 //PARTE 2 - EXERCÍCIO 1
-const fatorial = n => {
-  let resultado = 1;
-  for(let index = n; index > 0; index -= 1) {
-    resultado *= index;
+// const fatorial = n => {
+//   let resultado = 1;
+//   for(let index = n; index > 1; index -= 1) {
+//     resultado *= index;
+//   }
+//   return resultado;
+// }
+
+// console.log(fatorial(3));
+
+//PARTE 2 - EXERCÍCIO 2
+const longestWord = "Antônio foi no banheiro e não sabemos o que aconteceu" // retorna 'aconteceu'
+const biggestWord = phrase => {
+  phrase = phrase.split(' ');
+  let biggest = phrase[0];
+  for(let index = phrase.length - 1; index > 0; index -= 1) {
+    if(phrase[index].length >= biggest.length) {
+      biggest = phrase[index];
+    }
   }
-  return resultado;
+  return biggest;
 }
 
-console.log(fatorial(0));
+console.log(biggestWord(longestWord))
