@@ -43,15 +43,17 @@
 
 //PARTE 2 - EXERCÍCIO 2
 const longestWord = "Antônio foi no banheiro e não sabemos o que aconteceu" // retorna 'aconteceu'
-const biggestWord = phrase => {
-  phrase = phrase.split(' ');
-  let biggest = phrase[0];
-  for(let index = phrase.length - 1; index > 0; index -= 1) {
-    if(phrase[index].length >= biggest.length) {
-      biggest = phrase[index];
-    }
-  }
-  return biggest;
-}
+// const biggestWord = phrase => {
+//   phrase = phrase.split(' ');
+//   let biggest = phrase[0];
+//   for(let index = phrase.length - 1; index > 0; index -= 1) {
+//     if(phrase[index].length >= biggest.length) {
+//       biggest = phrase[index];
+//     }
+//   }
+//   return biggest;
+// }
+
+const biggestWord = phrase => (phrase.split(' ').sort((a, b) => b.length - a.length))[0];
 
 console.log(biggestWord(longestWord))
