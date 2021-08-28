@@ -70,10 +70,16 @@
 //   return newString.join(' ');
 // }
 
+// USANDO MÉTIDO .FINDINDEX()
 const finder = (string, toBeReplaced, replacer) => {
   string = string.split(' ');
   string[string.findIndex(index => index === toBeReplaced)] = replacer;
   return string.join(' ');
 }
 
-console.log(finder('A trybe é x', 'x', 'foda!'));
+// console.log(finder('A trybe é x', 'x', 'foda!'));
+
+const fiveSkills = ['JavaScript', 'Git', 'Unix', 'CSS', 'HTML'];
+const skillList = (string, array) =>  `${string} Minhas 5 principais habilidades são: ${array.sort().join(', ')}.`;
+
+console.log(skillList(finder('A trybe é x', 'x', 'foda!'), fiveSkills));
