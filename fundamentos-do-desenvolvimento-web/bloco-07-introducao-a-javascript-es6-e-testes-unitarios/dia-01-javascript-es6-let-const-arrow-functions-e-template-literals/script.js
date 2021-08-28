@@ -42,7 +42,7 @@
 // console.log(fatorial(3));
 
 //PARTE 2 - EXERCÍCIO 2
-const longestWord = "Antônio foi no banheiro e não sabemos o que aconteceu" // retorna 'aconteceu'
+//const longestWord = "Antônio foi no banheiro e não sabemos o que aconteceu" // retorna 'aconteceu'
 // const biggestWord = phrase => {
 //   phrase = phrase.split(' ');
 //   let biggest = phrase[0];
@@ -54,6 +54,26 @@ const longestWord = "Antônio foi no banheiro e não sabemos o que aconteceu" //
 //   return biggest;
 // }
 
-const biggestWord = phrase => (phrase.split(' ').sort((a, b) => b.length - a.length))[0];
+// ABAIXO COM MÉTODO .SORT() EM UMA LINHA
+// const biggestWord = phrase => (phrase.split(' ').sort((a, b) => b.length - a.length))[0];
 
-console.log(biggestWord(longestWord))
+// console.log(biggestWord(longestWord))
+
+//PARTE 2 - EXERCÍCIO 4
+// const finder = (string, toBeReplaced, replacer) => {
+//   let newString = string.split(' ');
+//   for (index = 0; index < newString.length; index += 1) {
+//     if (newString[index] === toBeReplaced) {
+//       newString[index] = replacer;
+//     }
+//   }
+//   return newString.join(' ');
+// }
+
+const finder = (string, toBeReplaced, replacer) => {
+  string = string.split(' ');
+  string[string.findIndex(index => index === toBeReplaced)] = replacer;
+  return string.join(' ');
+}
+
+console.log(finder('A trybe é x', 'x', 'foda!'));
