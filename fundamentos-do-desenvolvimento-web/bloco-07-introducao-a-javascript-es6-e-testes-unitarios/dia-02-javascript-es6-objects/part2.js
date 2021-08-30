@@ -55,4 +55,16 @@ const studentCounter = objectName => {
 // EXERCISE 7
 const valueByIndex = (objectName, index) => Object.values(objectName)[index];
 
-console.log(valueByIndex(lesson1, 0));
+
+// EXERCISE 8
+const objectChecker = (objectName, keyName, valueName) => {
+  const entries = Object.entries(objectName);
+  let contains = false;
+  for(index in entries) {
+    if (entries[index][0] === keyName && entries[index][1] === valueName) {
+      contains = true;
+    }
+  }
+  return contains;
+}
+
