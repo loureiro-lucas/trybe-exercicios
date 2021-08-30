@@ -32,4 +32,7 @@ const objectSize = objectName => Object.keys(objectName).length;
 // EXERCISE 4
 const valueReader = objectName => Object.values(objectName);
 
-// console.log(valueReader(lesson3))
+// EXERCISE 5
+const allLessons = {lesson1, lesson2, lesson3};
+
+// console.log(allLessons)
