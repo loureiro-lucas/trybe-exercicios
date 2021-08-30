@@ -22,3 +22,6 @@ const lesson3 = {
 const shiftAdder = (objectName, keyName, valueName) => objectName[keyName] = valueName;
 
 shiftAdder(lesson2, 'turno', 'manhã');
+
+// EXERCISE 2
+const keyReader = objectName => Object.keys(objectName);
