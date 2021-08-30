@@ -33,6 +33,9 @@ const objectSize = objectName => Object.keys(objectName).length;
 const valueReader = objectName => Object.values(objectName);
 
 // EXERCISE 5
-const allLessons = {lesson1, lesson2, lesson3};
+// primeira resolução
+// const allLessons = {lesson1, lesson2, lesson3};
+// segunda resolução após consultar gabarito
+const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
 
 // console.log(allLessons)
