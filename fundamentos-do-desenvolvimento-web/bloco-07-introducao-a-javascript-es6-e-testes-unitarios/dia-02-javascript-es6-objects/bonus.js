@@ -32,4 +32,16 @@ const mathStudents = objectName => {
   return students;
 }
 
-console.log(mathStudents(allLessons));
+// EXERCISE 2
+const teacherLog = (objectName, teachersName) => {
+  const lessons = Object.keys(objectName);
+  let aulas = [];
+  let students = 0;
+  for(index in lessons) {
+    if(objectName[lessons[index]].professor === teachersName) {
+      aulas.push(objectName[lessons[index]].materia);
+      students += objectName[lessons[index]].numeroEstudantes;
+    }
+  }
+  return {professor: teachersName, aulas: aulas, estudantes: students}
+}
