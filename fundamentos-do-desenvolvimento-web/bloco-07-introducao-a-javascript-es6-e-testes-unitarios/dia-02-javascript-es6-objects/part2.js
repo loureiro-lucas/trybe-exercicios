@@ -38,4 +38,15 @@ const valueReader = objectName => Object.values(objectName);
 // segunda resolução após consultar gabarito
 const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
 
-// console.log(allLessons)
+// EXERCISE 6
+const studentCounter = objectName => {
+  const lessons = Object.keys(objectName);
+  let students = 0;
+  for (lesson of lessons) {
+    const currentLesson = objectName[lesson];
+    students += currentLesson.numeroEstudantes;
+  }
+  return students;
+}
+
+console.log(studentCounter(allLessons));
