@@ -25,3 +25,6 @@ shiftAdder(lesson2, 'turno', 'manhã');
 
 // EXERCISE 2
 const keyReader = objectName => Object.keys(objectName);
+
+// EXERCISE 3
+const objectSize = objectName => Object.keys(objectName).length;
