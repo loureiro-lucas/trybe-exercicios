@@ -52,4 +52,7 @@ const studentCounter = objectName => {
   return students;
 }
 
-console.log(studentCounter(allLessons));
+// EXERCISE 7
+const valueByIndex = (objectName, index) => Object.values(objectName)[index];
+
+console.log(valueByIndex(lesson1, 0));
