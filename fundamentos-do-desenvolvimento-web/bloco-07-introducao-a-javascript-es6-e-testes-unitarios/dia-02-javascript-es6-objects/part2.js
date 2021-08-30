@@ -33,18 +33,21 @@ const objectSize = objectName => Object.keys(objectName).length;
 const valueReader = objectName => Object.values(objectName);
 
 // EXERCISE 5
-// primeira resolução
+// first answer
 // const allLessons = {lesson1, lesson2, lesson3};
-// segunda resolução após consultar gabarito
+// second answer after checking template
 const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
 
 // EXERCISE 6
 const studentCounter = objectName => {
   const lessons = Object.keys(objectName);
   let students = 0;
-  for (lesson of lessons) {
-    const currentLesson = objectName[lesson];
-    students += currentLesson.numeroEstudantes;
+  for (index in lessons) {
+    // first answer
+    // const currentLesson = objectName[lesson];
+    // students += currentLesson.numeroEstudantes;
+    // second answer after checking template
+    students += objectName[lessons[index]].numeroEstudantes;
   }
   return students;
 }
