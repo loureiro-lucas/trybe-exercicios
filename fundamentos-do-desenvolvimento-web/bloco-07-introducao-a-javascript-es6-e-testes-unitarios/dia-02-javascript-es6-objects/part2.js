@@ -28,3 +28,8 @@ const keyReader = objectName => Object.keys(objectName);
 
 // EXERCISE 3
 const objectSize = objectName => Object.keys(objectName).length;
+
+// EXERCISE 4
+const valueReader = objectName => Object.values(objectName);
+
+// console.log(valueReader(lesson3))
