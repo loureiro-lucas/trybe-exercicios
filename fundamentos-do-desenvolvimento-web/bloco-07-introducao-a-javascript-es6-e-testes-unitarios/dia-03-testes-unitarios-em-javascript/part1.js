@@ -35,23 +35,40 @@
 // assert.deepStrictEqual(myRemove([1, 2, 3, 4], 5), [1, 2, 3, 4]);
 
 // EXERCISE 3
+// const assert = require('assert');
+
+// function myRemoveWithoutCopy(arr, item) {
+//   for (let index = 0, len = arr.length; index < len; index += 1) {
+//     if (arr[index] === item) {
+//       arr.splice(index, 1);
+//       index -= 1;
+//       len -= 1;
+//     }
+//   }
+
+//   return arr;
+// }
+
+// assert.deepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 3), [1, 2 ,4]);
+// assert.notDeepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 3), [1, 2 , 3, 4]);
+// const myArray = [1, 2, 3, 4];
+// myRemoveWithoutCopy(myArray, 3);
+// assert.notDeepStrictEqual(myArray, [1, 2, 3, 4]);
+// assert.deepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 5), [1, 2, 3, 4]);
+
+// EXERCISE 4
 const assert = require('assert');
 
-function myRemoveWithoutCopy(arr, item) {
-  for (let index = 0, len = arr.length; index < len; index += 1) {
-    if (arr[index] === item) {
-      arr.splice(index, 1);
-      index -= 1;
-      len -= 1;
-    }
-  }
-
-  return arr;
+function myFizzBuzz(num) {
+  if (typeof num !== 'number') return false;
+  if (num % 3 === 0 && num % 5 === 0) return 'fizzbuzz';
+  if (num % 3 === 0) return 'fizz';
+  if (num % 5 === 0) return 'buzz';
+  return num;
 }
 
-assert.deepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 3), [1, 2 ,4]);
-assert.notDeepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 3), [1, 2 , 3, 4]);
-const myArray = [1, 2, 3, 4];
-myRemoveWithoutCopy(myArray, 3);
-assert.notDeepStrictEqual(myArray, [1, 2, 3, 4]);
-assert.deepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 5), [1, 2, 3, 4]);
+assert.strictEqual(myFizzBuzz(15), 'fizzbuzz');
+assert.strictEqual(myFizzBuzz(9), 'fizz');
+assert.strictEqual(myFizzBuzz(10), 'buzz');
+assert.strictEqual(myFizzBuzz(7), 7);
+assert.strictEqual(myFizzBuzz('x'), false);
