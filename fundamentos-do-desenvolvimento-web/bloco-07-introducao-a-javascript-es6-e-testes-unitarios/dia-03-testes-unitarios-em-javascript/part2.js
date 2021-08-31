@@ -35,18 +35,44 @@
 // assert.deepStrictEqual(output, expected);
 
 // EXERCISE 3
+// const assert = require('assert');
+// const sumAllNumbers = numbers => {
+//   let sum = 0;
+//   for (number of numbers) {
+//     sum += number;
+//   }
+//   return sum;
+// }
+
+// const numbers = [9, 23, 10, 3, 8];
+// const expected = 53;
+// const output = sumAllNumbers(numbers);
+
+// assert.strictEqual(typeof sumAllNumbers, 'function');
+// assert.strictEqual(output, expected);
+
+// EXERCISE 4
 const assert = require('assert');
-const sumAllNumbers = numbers => {
-  let sum = 0;
-  for (number of numbers) {
-    sum += number;
+const findTheNeedle = (wordsArray, wordToFind) => {
+  for (index in wordsArray) {
+    if (wordsArray[index] === wordToFind) {
+      return parseInt(index);
+    } 
   }
-  return sum;
+  return -1;
 }
 
-const numbers = [9, 23, 10, 3, 8];
-const expected = 53;
-const output = sumAllNumbers(numbers);
+let words = ['house', 'train', 'slide', 'needle', 'book'];
+let expected = 3;
+let output = findTheNeedle(words, 'needle');
+assert.strictEqual(output, expected);
 
-assert.strictEqual(typeof sumAllNumbers, 'function');
+words = ['plant', 'shelf', 'arrow', 'bird'];
+expected = 0;
+output = findTheNeedle(words, 'plant');
+assert.strictEqual(output, expected);
+
+words = ['plant', 'shelf', 'arrow', 'bird'];
+expected = -1;
+output = findTheNeedle(words, 'plat');
 assert.strictEqual(output, expected);
