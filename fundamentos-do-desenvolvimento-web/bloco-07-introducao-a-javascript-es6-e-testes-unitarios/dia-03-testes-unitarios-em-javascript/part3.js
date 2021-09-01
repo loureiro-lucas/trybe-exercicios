@@ -49,20 +49,34 @@
 // assert.strictEqual(removeVowels(parameter), result);
 
 //EXERCISE 3
-const greaterThanTen = (array) => {
-  let results = [];
-  for (let index = 0; index < array.length; index += 1) {
-    if (array[index] > 10) {
-      results.push(array[index]);
-    }
-  }
-  return results;
-};
+// const greaterThanTen = (array) => {
+//   let results = [];
+//   for (let index = 0; index < array.length; index += 1) {
+//     if (array[index] > 10) {
+//       results.push(array[index]);
+//     }
+//   }
+//   return results;
+// };
 
-const parameter = [4, 10, 32, 9, 21];
-const result = [32, 21];
+// const parameter = [4, 10, 32, 9, 21];
+// const result = [32, 21];
+
+// const assert = require('assert');
+
+// assert.strictEqual(typeof(greaterThanTen), 'function');
+// assert.deepStrictEqual(greaterThanTen(parameter), result);
+
+// EXERCISE 4
+function secondThirdSmallest(array) {
+  array.sort((a, b) => a - b);
+  return [array[1], array[2]];
+}
+
+const parameter = [4, 10, 32, 9, 21, 90, 5, 11, 8, 6];
+const result = [5, 6];
 
 const assert = require('assert');
 
-assert.strictEqual(typeof(greaterThanTen), 'function');
-assert.deepStrictEqual(greaterThanTen(parameter), result);
+assert.strictEqual(typeof(secondThirdSmallest), 'function');
+assert.deepStrictEqual(secondThirdSmallest(parameter), result);
