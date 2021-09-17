@@ -6,5 +6,5 @@ const promise = new Promise((resolve,reject) => {
   const sum = newArray.reduce((total, current) => total + current, 0);
   sum > 8000 ? resolve(sum) : reject();
 })
-.then((sum) => console.log([sum / 2, sum / 3, sum / 5, sum / 10]))
+.then((sum) => [2, 3, 5, 10].map((number) => sum / number))
 .catch(() => console.log('Promise rejeitada'));
