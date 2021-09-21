@@ -1,5 +1,3 @@
-const { expect } = require('@jest/globals');
-const { test } = require('picomatch');
 const sum = require('./exercise1');
 
 describe('test sum function', () => {
