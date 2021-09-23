@@ -1,4 +1,4 @@
-let { randomNumber } = require('./exercise01');
+let { randomNumber } = require('./exercise02');
 
 describe('testing randomNumber function', () => {
   it('mocking it with a new implementation ((a, b) => a / b)', () => {
