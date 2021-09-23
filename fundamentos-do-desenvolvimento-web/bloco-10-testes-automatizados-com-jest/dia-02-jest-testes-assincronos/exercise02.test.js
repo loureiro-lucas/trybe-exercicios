@@ -1,6 +1,4 @@
-const { expect } = require('@jest/globals');
-const { assert } = require('console');
-const { users, getUserName} = require('./exercise02');
+const { getUserName } = require('./exercise02');
 
 describe('test function getUserName', () => {
   it('test if when there is a valid id(1), the right name(Mark) is returned', () => (
