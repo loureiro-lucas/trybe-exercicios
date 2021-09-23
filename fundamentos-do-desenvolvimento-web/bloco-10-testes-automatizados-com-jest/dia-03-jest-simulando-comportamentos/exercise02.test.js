@@ -1,7 +1,7 @@
 let { randomNumber } = require('./exercise01');
 
 describe('testing randomNumber function', () => {
-  it('mocking it with value = 10', () => {
+  it('mocking it with a new implementation ((a, b) => a / b)', () => {
     randomNumber = jest.fn().mockImplementationOnce((a, b) => a / b);
 
     expect(randomNumber(10, 5)).toBe(2);
