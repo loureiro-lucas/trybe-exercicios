@@ -40,67 +40,67 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 ##### Block 6: HTML & CSS - Forms, Flexbox and Responsiveness
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _JavaScript libraries and CSS frameworks_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsive - Mobile First_
-- [ ] 6-6: _Project - Trybewarts_
+- [x] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-5: _CSS Responsive - Mobile First_
+- [x] 6-6: _Project - Trybewarts_
 ##### Block 7: JavaScript ES6 & Unit Testing
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Unit testing in JavaScript_
-- [ ] 7-4: _Project - JavaScript Unit Testing_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
+- [x] 7-2: _JavaScript ES6 - Objects_
+- [x] 7-3: _Unit testing in JavaScript_
+- [x] 7-4: _Project - JavaScript Unit Testing_
 ##### Block 8: JavaScript ES6 - Higher Order Functions
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
-- [ ] 8-5: _Project - Zoo Functions_
+- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
+- [x] 8-5: _Project - Zoo Functions_
 ##### Block 9: Asynchronous JavaScript, Callbacks and Promises
-- [ ] 9-1: _Asynchronous JavaScript and Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _Project - Shopping Cart_
-##### Block 10: Automated testing with Jest
-- [ ] 10-1: _First steps in Jest_
-- [ ] 10-2: _Jest - Asynchronous tests_
-- [ ] 10-3: _Jest - Mimicking behavior_
-- [ ] 10-4: _Project - Asynchronous Jest and Mocking_
+- [x] 9-1: _Asynchronous JavaScript and Callbacks_
+- [x] 9-2: _JavaScript Promises_
+- [x] 9-3: _Project - Shopping Cart_
+##### Block 10A: Automated testing with Jest
+- [x] 10-1: _First steps in Jest_
+- [x] 10-2: _Jest - Asynchronous tests_
+- [x] 10-3: _Jest - Mimicking behavior_
+- [x] 10-4: _Project - Asynchronous Jest and Mocking_
 ***
 ## Front-end Development :construction:
-##### Block 11: Introduction - React
+##### Block 10B: Introduction - React
 - [ ] 11-1: _'Hello, world!' on React_
 - [ ] 11-2: _React components_
 - [ ] 11-3: _Project - Movie Cards Library_
-##### Block 12: Components with State, Events and Forms on React
+##### Block 11: Components with State, Events and Forms on React
 - [ ] 12-1: _Components with State_
 - [ ] 12-2: _Events and Forms on React_
 - [ ] 12-3: _Projeto - Movie Cards Library Stateful_
-##### Block 13: Components Lifecycle and React Router 
+##### Block 12: Components Lifecycle and React Router 
 - [ ] 13-1: _Components Lifecycle_
 - [ ] 13-2: _React Router_
 - [ ] 13-3: _Project - Movie Cards Library CRUD_
-##### Block 14: Agile Methodologies
+##### Block 13: Agile Methodologies
 - [ ] 14-1: _Agile methodologies_
 - [ ] 14-2: _Project - Front-end Online Store_
-##### Block 15: Automated Testing with React Testing Library
+##### Block 14: Automated Testing with React Testing Library
 - [ ] 15-1: _React Testing Library - first steps_
 - [ ] 15-2: _React Testing Library - Mocks and inputs_
 - [ ] 15-3: _React Testing Library - React Router testing_
 - [ ] 15-4: _Project - Testing on React_
-##### Block 16: State Management with Redux
+##### Block 15: State Management with Redux
 - [ ] 16-1: _Redux - Application Global State_
 - [ ] 16-2: _Redux on React_
 - [ ] 16-3: _Redux on React - Practice_
 - [ ] 16-4: _Redux on React - Asynchronous Actions_
 - [ ] 16-5: _React-Redux testing_
 - [ ] 16-6: _Project - Trybe Wallet_
-##### Block 17: React Project
+##### Block 16: React Project
 - [ ] 17-1: _Project - Trivia Game_
-##### Block 18: Context API and React Hooks
+##### Block 17: Context API and React Hooks
 - [ ] 18-1: _React Context API_
 - [ ] 18-2: _React Hooks - useState and useContext_
 - [ ] 18-3: _React Hooks - useEffect and custom Hooks_
 - [ ] 18-4: _Project - StarWars Datatable with Context API and Hooks_
-##### Block 19: Front-end Final Project
+##### Block 18: Front-end Final Project
 - [ ] 19-1: _Project - Recipe App_
 ***
 ## Back-end Development :construction:
