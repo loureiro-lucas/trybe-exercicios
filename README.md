@@ -7,7 +7,7 @@ The program has more than 1,500 hours of classes and covers introduction to soft
 
 Part of the content may be in Portuguese as a mandatory requirement in certain activities and projects.
 ***
-## Web Development Fundamentals :memo:
+## Web Development Fundamentals :white_check_mark:
 ##### Block 1: Introduction - Unix & Shell :white_check_mark:
 - [x] 1-3: _Unix & Shell - Part 1_
 - [x] 1-4: _Unix & Shell - Part 2_
@@ -35,37 +35,35 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [ ] 5-5: _Project - Meme Generator_
 - [x] 5-6: _Project - Pixel Art_ :medal_military:
 - [x] 5-7: _Project - Task List_ :medal_military:
-- [ ] 5-7: _Project - Guess the Color_
-- [ ] 5-7: _Project - Mysterious Letter_
-##### Block 6: HTML & CSS - Forms, Flexbox and Responsiveness
+##### Block 6: HTML & CSS - Forms, Flexbox and Responsiveness :white_check_mark:
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _JavaScript libraries and CSS frameworks_
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsive - Mobile First_
-- [x] 6-6: _Project - Trybewarts_
-##### Block 7: JavaScript ES6 & Unit Testing
+- [x] 6-6: _Project - Trybewarts_ :medal_military:
+##### Block 7: JavaScript ES6 & Unit Testing :white_check_mark:
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Unit testing in JavaScript_
-- [x] 7-4: _Project - JavaScript Unit Testing_
-##### Block 8: JavaScript ES6 - Higher Order Functions
+- [x] 7-4: _Project - JavaScript Unit Testing_ :medal_military:
+##### Block 8: JavaScript ES6 - Higher Order Functions :white_check_mark:
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
-- [x] 8-5: _Project - Zoo Functions_
-##### Block 9: Asynchronous JavaScript, Callbacks and Promises
+- [x] 8-5: _Project - Zoo Functions_ :medal_military:
+##### Block 9: Asynchronous JavaScript, Callbacks and Promises :white_check_mark:
 - [x] 9-1: _Asynchronous JavaScript and Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [x] 9-3: _Project - Shopping Cart_
-##### Block 10A: Automated testing with Jest
+- [x] 9-3: _Project - Shopping Cart_ :medal_military:
+##### Block 10A: Automated testing with Jest :white_check_mark:
 - [x] 10-1: _First steps in Jest_
 - [x] 10-2: _Jest - Asynchronous tests_
 - [x] 10-3: _Jest - Mimicking behavior_
-- [x] 10-4: _Project - Asynchronous Jest and Mocking_
+- [x] 10-4: _Project - Asynchronous Jest and Mocking_ :medal_military:
 ***
-## Front-end Development :construction:
+## Front-end Development :memo:
 ##### Block 10B: Introduction - React
 - [ ] 11-1: _'Hello, world!' on React_
 - [ ] 11-2: _React components_
