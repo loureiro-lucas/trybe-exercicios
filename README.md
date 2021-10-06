@@ -20,28 +20,28 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 3-2: _HTML & CSS - First steps in CSS_
 - [x] 3-3: _HTML & CSS - Selectors and positioning_
 - [x] 3-4: _HTML Semantic_
-- [x] 3-5: _[Project - HTML & CSS]()_ :medal_military:
+- [x] 3-5: _Project - HTML & CSS_ :medal_military:
 ##### Block 4: Introduction - JavaScript and Programming Logic :white_check_mark:
 - [x] 4-1: _JavaScript - First steps_
 - [x] 4-2: _JavaScript - Array and For loop_
 - [x] 4-3: _JavaScript - Programming logic and algorithms_
 - [x] 4-4: _JavaScript - Objects and functions_
-- [x] 4-5: _[Project - Playground Functions]()_ :medal_military:
+- [x] 4-5: _Project - Playground Functions_ :medal_military:
 ##### Block 5: JavaScript - DOM, Events and Web Storage :white_check_mark:
 - [x] 5-1: _JavaScript - DOM and selectors_
 - [x] 5-2: _JavaScript - Working with elements_
 - [x] 5-3: _JavaScript - Events_
 - [x] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Project - Meme Generator_
-- [x] 5-6: _Project - Pixel Art_ :medal_military:
-- [x] 5-7: _Project - Task List_ :medal_military:
+- [x] 5-6: _[Project - Pixel Art](https://github.com/loureiro-lucas/project-pixel-art) [GitHub Pages](https://loureiro-lucas.github.io/project-pixel-art/)_ :medal_military:
+- [x] 5-7: _[Project - Task List](https://github.com/loureiro-lucas/project-to-do-list) [GitHub Pages](https://loureiro-lucas.github.io/project-to-do-list/)_ :medal_military:
 ##### Block 6: HTML & CSS - Forms, Flexbox and Responsiveness :white_check_mark:
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _JavaScript libraries and CSS frameworks_
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsive - Mobile First_
-- [x] 6-6: _Project - Trybewarts_ :medal_military:
+- [x] 6-6: _[Project - Trybewarts](https://github.com/loureiro-lucas/project-trybewarts) [GitHub Pages](https://loureiro-lucas.github.io/project-trybewarts/)_ :medal_military:
 ##### Block 7: JavaScript ES6 & Unit Testing :white_check_mark:
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
@@ -52,7 +52,7 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
-- [x] 8-5: _Project - Zoo Functions_ :medal_military:
+- [x] 8-5: _[Project - Zoo Functions](https://github.com/loureiro-lucas/project-zoo-functions)_ :medal_military:
 ##### Block 9: Asynchronous JavaScript, Callbacks and Promises :white_check_mark:
 - [x] 9-1: _Asynchronous JavaScript and Callbacks_
 - [x] 9-2: _JavaScript Promises_
