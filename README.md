@@ -58,10 +58,10 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 9-2: _JavaScript Promises_
 - [x] 9-3: _Project - Shopping Cart_ :medal_military:
 ##### Block 10A: Automated testing with Jest :white_check_mark:
-- [x] 10-1: _First steps in Jest_
-- [x] 10-2: _Jest - Asynchronous tests_
-- [x] 10-3: _Jest - Mimicking behavior_
-- [x] 10-4: _Project - Asynchronous Jest and Mocking_ :medal_military:
+- [x] 10A-1: _First steps in Jest_
+- [x] 10A-2: _Jest - Asynchronous tests_
+- [x] 10A-3: _Jest - Mimicking behavior_
+- [x] 10A-4: _Project - Asynchronous Jest and Mocking_ :medal_military:
 ***
 ## Front-end Development :memo:
 ##### Block 10B: Introduction - React :white_check_mark:
