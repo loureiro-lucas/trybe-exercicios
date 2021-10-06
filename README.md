@@ -64,42 +64,42 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 10-4: _Project - Asynchronous Jest and Mocking_ :medal_military:
 ***
 ## Front-end Development :memo:
-##### Block 10B: Introduction - React
-- [ ] 11-1: _'Hello, world!' on React_
-- [ ] 11-2: _React components_
-- [ ] 11-3: _Project - Movie Cards Library_
+##### Block 10B: Introduction - React :white_check_mark:
+- [x] 10B-1: _'Hello, world!' on React_
+- [x] 10B-2: _React components_
+- [x] 10B-3: _[Project - Movie Cards Library](https://github.com/loureiro-lucas/project-movie-cards-library)_ :medal_military:
 ##### Block 11: Components with State, Events and Forms on React
-- [ ] 12-1: _Components with State_
-- [ ] 12-2: _Events and Forms on React_
-- [ ] 12-3: _Projeto - Movie Cards Library Stateful_
+- [ ] 11-1: _Components with State_
+- [ ] 11-2: _Events and Forms on React_
+- [ ] 11-3: _Projeto - Movie Cards Library Stateful_
 ##### Block 12: Components Lifecycle and React Router 
-- [ ] 13-1: _Components Lifecycle_
-- [ ] 13-2: _React Router_
-- [ ] 13-3: _Project - Movie Cards Library CRUD_
+- [ ] 12-1: _Components Lifecycle_
+- [ ] 12-2: _React Router_
+- [ ] 12-3: _Project - Movie Cards Library CRUD_
 ##### Block 13: Agile Methodologies
-- [ ] 14-1: _Agile methodologies_
-- [ ] 14-2: _Project - Front-end Online Store_
+- [ ] 13-1: _Agile methodologies_
+- [ ] 13-2: _Project - Front-end Online Store_
 ##### Block 14: Automated Testing with React Testing Library
-- [ ] 15-1: _React Testing Library - first steps_
-- [ ] 15-2: _React Testing Library - Mocks and inputs_
-- [ ] 15-3: _React Testing Library - React Router testing_
-- [ ] 15-4: _Project - Testing on React_
+- [ ] 14-1: _React Testing Library - first steps_
+- [ ] 14-2: _React Testing Library - Mocks and inputs_
+- [ ] 14-3: _React Testing Library - React Router testing_
+- [ ] 14-4: _Project - Testing on React_
 ##### Block 15: State Management with Redux
-- [ ] 16-1: _Redux - Application Global State_
-- [ ] 16-2: _Redux on React_
-- [ ] 16-3: _Redux on React - Practice_
-- [ ] 16-4: _Redux on React - Asynchronous Actions_
-- [ ] 16-5: _React-Redux testing_
-- [ ] 16-6: _Project - Trybe Wallet_
+- [ ] 15-1: _Redux - Application Global State_
+- [ ] 15-2: _Redux on React_
+- [ ] 15-3: _Redux on React - Practice_
+- [ ] 15-4: _Redux on React - Asynchronous Actions_
+- [ ] 15-5: _React-Redux testing_
+- [ ] 15-6: _Project - Trybe Wallet_
 ##### Block 16: React Project
-- [ ] 17-1: _Project - Trivia Game_
+- [ ] 16-1: _Project - Trivia Game_
 ##### Block 17: Context API and React Hooks
-- [ ] 18-1: _React Context API_
-- [ ] 18-2: _React Hooks - useState and useContext_
-- [ ] 18-3: _React Hooks - useEffect and custom Hooks_
-- [ ] 18-4: _Project - StarWars Datatable with Context API and Hooks_
+- [ ] 17-1: _React Context API_
+- [ ] 17-2: _React Hooks - useState and useContext_
+- [ ] 17-3: _React Hooks - useEffect and custom Hooks_
+- [ ] 17-4: _Project - StarWars Datatable with Context API and Hooks_
 ##### Block 18: Front-end Final Project
-- [ ] 19-1: _Project - Recipe App_
+- [ ] 18-1: _Project - Recipe App_
 ***
 ## Back-end Development :construction:
 ##### Block 20: Introduction - Relational Databases and SQL
