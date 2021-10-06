@@ -7,7 +7,7 @@ The program has more than 1,500 hours of classes and covers introduction to soft
 
 Part of the content may be in Portuguese as a mandatory requirement in certain activities and projects.
 ***
-## Web Development Fundamentals :white_check_mark:
+## Web Development Fundamentals ([go to](https://github.com/loureiro-lucas/trybe-exercicios/tree/main/fundamentos-do-desenvolvimento-web)):white_check_mark:
 ##### Block 1: Introduction - Unix & Shell :white_check_mark:
 - [x] 1-3: _Unix & Shell - Part 1_
 - [x] 1-4: _Unix & Shell - Part 2_
