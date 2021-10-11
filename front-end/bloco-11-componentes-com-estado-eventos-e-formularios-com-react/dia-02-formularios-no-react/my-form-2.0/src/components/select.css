@@ -1,0 +1,11 @@
+label {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+select {
+  text-align: right;
+  width: 55px;
+  margin-left: 5px;
+  padding-right: 5px;
+}
