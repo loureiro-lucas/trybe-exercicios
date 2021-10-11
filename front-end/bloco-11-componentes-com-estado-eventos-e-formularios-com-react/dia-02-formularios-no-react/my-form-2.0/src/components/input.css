@@ -1,0 +1,14 @@
+label {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+input {
+  flex-grow: 1;
+  margin-left: 5px;
+}
+
+.error {
+  font-size: small;
+  color: red;
+}

@@ -1,0 +1,11 @@
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(247, 247, 247);
+}
+
+h3 {
+  margin-top: 10px;
+}
