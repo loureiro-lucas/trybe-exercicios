@@ -75,7 +75,7 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 ##### Block 12: Components Lifecycle and React Router :white_check_mark:
 - [x] 12-1: _Components Lifecycle_
 - [x] 12-2: _React Router_
-- [x] 12-3: _[Project - TrybeTunes](https://github.com/loureiro-lucas/project-trybetunes_ - _[GitHub Pages](https://loureiro-lucas.github.io/project-trybetunes/#/_ :medal_military:
+- [x] 12-3: _[Project - TrybeTunes](https://github.com/loureiro-lucas/project-trybetunes)_ - _[GitHub Pages](https://loureiro-lucas.github.io/project-trybetunes/#/_ :medal_military:
 ##### Block 13: Agile Methodologies :white_check_mark:
 - [x] 13-1: _Agile methodologies_
 - [x] 13-2: _Project - Front-end Online Store_ :medal_military:
