@@ -72,18 +72,18 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 11-1: _Components with State_
 - [x] 11-2: _Events and Forms on React_
 - [x] 11-3: _[Project - Tryunfo](https://github.com/loureiro-lucas/project-tryunfo)_ :medal_military:
-##### Block 12: Components Lifecycle and React Router 
+##### Block 12: Components Lifecycle and React Router :white_check_mark:
 - [x] 12-1: _Components Lifecycle_
 - [x] 12-2: _React Router_
-- [ ] 12-3: _Project - Movie Cards Library CRUD_
-##### Block 13: Agile Methodologies
-- [ ] 13-1: _Agile methodologies_
-- [ ] 13-2: _Project - Front-end Online Store_
-##### Block 14: Automated Testing with React Testing Library
-- [ ] 14-1: _React Testing Library - first steps_
-- [ ] 14-2: _React Testing Library - Mocks and inputs_
-- [ ] 14-3: _React Testing Library - React Router testing_
-- [ ] 14-4: _Project - Testing on React_
+- [x] 12-3: _[Project - TrybeTunes](https://github.com/loureiro-lucas/project-trybetunes_ - _[GitHub Pages](https://loureiro-lucas.github.io/project-trybetunes/#/_ :medal_military:
+##### Block 13: Agile Methodologies :white_check_mark:
+- [x] 13-1: _Agile methodologies_
+- [x] 13-2: _Project - Front-end Online Store_ :medal_military:
+##### Block 14: Automated Testing with React Testing Library :white_check_mark:
+- [x] 14-1: _React Testing Library - first steps_
+- [x] 14-2: _React Testing Library - Mocks and inputs_
+- [x] 14-3: _React Testing Library - React Router testing_
+- [x] 14-4: _[Project - Testing on React](https://github.com/loureiro-lucas/project-react-testing-library)_ :medal_military:
 ##### Block 15: State Management with Redux
 - [ ] 15-1: _Redux - Application Global State_
 - [ ] 15-2: _Redux on React_
