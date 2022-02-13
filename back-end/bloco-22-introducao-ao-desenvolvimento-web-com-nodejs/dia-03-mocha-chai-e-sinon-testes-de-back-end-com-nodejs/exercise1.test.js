@@ -1,5 +1,6 @@
 const { expect } = require('chai');
 const positiveOrNegative = require('./exercise1');
+
 describe('testes sobre a função positiveOrNegative', () => {
 
   describe('testa se a função positiveOrNegative existe', () => {
