@@ -47,4 +47,4 @@ const switchNelsonToMaggie = async () => {
   fs.writeFile('./simpsonFamily.json', JSON.stringify(newList));
 };
 
-switchNelsonToMaggie();
+createSimpsonFamily();
