@@ -63,7 +63,7 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 10A-3: _Jest - Mimicking behavior_
 - [x] 10A-4: _Project - Asynchronous Jest and Mocking_ :medal_military:
 ***
-## Front-end Development :memo:
+## Front-end Development :white_check_mark:
 ##### Block 10B: Introduction - React :white_check_mark:
 - [x] 10B-1: _'Hello, world!' on React_
 - [x] 10B-2: _React components_
@@ -84,38 +84,44 @@ Part of the content may be in Portuguese as a mandatory requirement in certain a
 - [x] 14-2: _React Testing Library - Mocks and inputs_
 - [x] 14-3: _React Testing Library - React Router testing_
 - [x] 14-4: _[Project - Testing on React](https://github.com/loureiro-lucas/project-react-testing-library)_ :medal_military:
-##### Block 15: State Management with Redux
-- [ ] 15-1: _Redux - Application Global State_
-- [ ] 15-2: _Redux on React_
-- [ ] 15-3: _Redux on React - Practice_
-- [ ] 15-4: _Redux on React - Asynchronous Actions_
-- [ ] 15-5: _React-Redux testing_
-- [ ] 15-6: _Project - Trybe Wallet_
-##### Block 16: React Project
-- [ ] 16-1: _Project - Trivia Game_
-##### Block 17: Context API and React Hooks
-- [ ] 17-1: _React Context API_
-- [ ] 17-2: _React Hooks - useState and useContext_
-- [ ] 17-3: _React Hooks - useEffect and custom Hooks_
-- [ ] 17-4: _Project - StarWars Datatable with Context API and Hooks_
-##### Block 18: Front-end Final Project
-- [ ] 18-1: _Project - Recipe App_
+##### Block 15: State Management with Redux :white_check_mark:
+- [x] 15-1: _Redux - Application Global State_
+- [x] 15-2: _Redux on React_
+- [x] 15-3: _Redux on React - Practice_
+- [x] 15-4: _Redux on React - Asynchronous Actions_
+- [x] 15-5: _React-Redux testing_
+- [x] 15-6: _Project - Trybe Wallet_ :medal_military:
+##### Block 16: React Project :white_check_mark:
+- [x] 16-1: _Project - Trivia Game_
+##### Block 17: Context API and React Hooks :white_check_mark:
+- [x] 17-1: _React Context API_
+- [x] 17-2: _React Hooks - useState and useContext_
+- [x] 17-3: _React Hooks - useEffect and custom Hooks_
+- [x] 17-4: _Project - StarWars Datatable with Context API and Hooks_ :medal_military:
+##### Block 18: Front-end Final Project :white_check_mark:
+- [x] 18-1: _Project - Recipe App_ :medal_military:
 ***
-## Back-end Development :construction:
-##### Block 20: Introduction - Relational Databases and SQL
-- [ ] 20-1: _Introduction - Back-end, Relational Databases and SQL_
-- [ ] 20-2: _Fetching data in a database_
-- [ ] 20-3: _Filtering for Specific Data_
-- [ ] 20-4: _Manipulating tables_
-- [ ] 20-5: _Project - All For One_
-##### Block 21: SQL Functions, Joins and Subqueries
-- [ ] 21-1: _Most commonly used SQL functions_
-- [ ] 21-2: _Making JOINs, UNIONs and Subqueries easy_
-- [ ] 21-3: _Stored Routines and Subqueries_
-- [ ] 21-4: _Project - Vocabulary Booster_
+## Back-end Development :memo:
+##### Block 19: Docker: Usin Containers :white_check_mark:
+- [x] 19-1: _Introduction - Back End_
+- [x] 19-2: _Using Containers - Docker_
+- [x] 19-3: _Image Manipulation and Creation in Docker_
+- [x] 19-4: _Orchestrating Containers with Docker Compose_
+- [x] 19-3: _Project - Docer To Do List_ :medal_military:
+##### Block 20: Introduction - Relational Databases and SQL :white_check_mark:
+- [x] 20-1: _Introduction - Relational Databases and SQL_
+- [x] 20-2: _Fetching data in a database_
+- [x] 20-3: _Filtering for Specific Data_
+- [x] 20-4: _Manipulating tables_
+- [x] 20-5: _Project - All For One_ :medal_military:
+##### Block 21: SQL Functions, JOINs and Normalization :white_check_mark:
+- [x] 21-1: _Most commonly used SQL functions_
+- [x] 21-2: _Making JOINs easy_
+- [x] 21-3: _Turning Ideas into a Database Model_
+- [x] 21-4: _Project - One For All_ :medal_military:
 ##### Block 22: Database Normalization and Modeling
-- [ ] 22-1: _Turning Ideas into a Database Model - Part 1_
-- [ ] 22-2: _Normalization, Normal Forms and Dumps_
+- [x] 22-1: _Turning Ideas into a Database Model - Part 1_
+- [x] 22-2: _Normalization, Normal Forms and Dumps_
 - [ ] 22-2: _Turning Ideas into a Database Model - Part 2_
 - [ ] 22-3: _Project - One For All_
 ##### Block 23: Introduction - NoSQL and MongoDB
